@@ -1,7 +1,7 @@
 import sbt._
 import Keys._
 
-object $name$Build extends Build {
+object WebBuild extends Build {
     val hello = TaskKey [Unit] ("hello", "Prints `Hello World`")
 
     val helloTask: Setting[Task[Unit]] = hello := {
